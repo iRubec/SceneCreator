@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="TYborB" name="SceneCreatorVisual" projectType="guiapp" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="jiMNOs" name="SceneCreatorVisual">
+    <GROUP id="{F9D69728-AD15-6F07-46E2-8781F6FCD9EB}" name="Source">
+      <GROUP id="{A9F4CCFB-816F-4137-C4A4-11DD9C8694A7}" name="decoding">
+        <FILE id="W8K2dT" name="decodingMatrix.json" compile="0" resource="1"
+              file="Source/decoding/decodingMatrix.json"/>
+      </GROUP>
+      <GROUP id="{8240317B-278E-57F3-5FFD-8A71F5515500}" name="IRs">
+        <FILE id="ktdrZM" name="irsOrd1.wav" compile="0" resource="1" file="Source/IRs/irsOrd1.wav"/>
+        <FILE id="C7Xwjh" name="irsOrd2.wav" compile="0" resource="1" file="Source/IRs/irsOrd2.wav"/>
+        <FILE id="ByP3P7" name="irsOrd3.wav" compile="0" resource="1" file="Source/IRs/irsOrd3.wav"/>
+        <FILE id="htdGEr" name="irsOrd4.wav" compile="0" resource="1" file="Source/IRs/irsOrd4.wav"/>
+        <FILE id="xOtL4Z" name="irsOrd5.wav" compile="0" resource="1" file="Source/IRs/irsOrd5.wav"/>
+        <FILE id="Anx1eK" name="irsOrd6.wav" compile="0" resource="1" file="Source/IRs/irsOrd6.wav"/>
+        <FILE id="wpe96U" name="irsOrd7.wav" compile="0" resource="1" file="Source/IRs/irsOrd7.wav"/>
+      </GROUP>
+      <GROUP id="{20BB2693-3CA7-F15A-5663-849E69B4F9E9}" name="resources">
+        <FILE id="SLP3h4" name="AmbisonicDecoder.h" compile="0" resource="0"
+              file="Source/resources/AmbisonicDecoder.h"/>
+        <FILE id="QUElMI" name="ambisonicTools.h" compile="0" resource="0"
+              file="Source/resources/ambisonicTools.h"/>
+        <FILE id="wJWRYA" name="Conversions.h" compile="0" resource="0" file="Source/resources/Conversions.h"/>
+        <FILE id="H16pHp" name="inPhase.h" compile="0" resource="0" file="Source/resources/inPhase.h"/>
+        <FILE id="DdfDzD" name="MatrixMultiplication.h" compile="0" resource="0"
+              file="Source/resources/MatrixMultiplication.h"/>
+        <FILE id="HadAbL" name="MaxRE.h" compile="0" resource="0" file="Source/resources/MaxRE.h"/>
+        <FILE id="k5s8T1" name="Quaternion.h" compile="0" resource="0" file="Source/resources/Quaternion.h"/>
+        <FILE id="cO6Wvz" name="ReferenceCountedDecoder.h" compile="0" resource="0"
+              file="Source/resources/ReferenceCountedDecoder.h"/>
+        <FILE id="qRG9ga" name="ReferenceCountedMatrix.h" compile="0" resource="0"
+              file="Source/resources/ReferenceCountedMatrix.h"/>
+      </GROUP>
+      <GROUP id="{93FF05FE-2205-F095-C754-15F48E269E97}" name="images">
+        <FILE id="O2Dyxb" name="hp.png" compile="0" resource="1" file="Source/images/hp.png"/>
+        <FILE id="pwRt6h" name="owl_back.png" compile="0" resource="1" file="Source/images/owl_back.png"/>
+        <FILE id="eQeCyG" name="owl_back_hp.png" compile="0" resource="1" file="Source/images/owl_back_hp.png"/>
+        <FILE id="bNfIaS" name="owl_front_hp.png" compile="0" resource="1"
+              file="Source/images/owl_front_hp.png"/>
+        <FILE id="oS6JqB" name="owl_plan.png" compile="0" resource="1" file="Source/images/owl_plan.png"/>
+        <FILE id="uOMYFS" name="owl_plan_hp.png" compile="0" resource="1" file="Source/images/owl_plan_hp.png"/>
+        <FILE id="JBd118" name="owl_profile.png" compile="0" resource="1" file="Source/images/owl_profile.png"/>
+        <FILE id="rDBSOq" name="owl_profile_hp.png" compile="0" resource="1"
+              file="Source/images/owl_profile_hp.png"/>
+        <FILE id="e58Ssw" name="pause.png" compile="0" resource="1" file="Source/images/pause.png"/>
+        <FILE id="u21u9S" name="play.png" compile="0" resource="1" file="Source/images/play.png"/>
+        <FILE id="H1PEbG" name="speaker.png" compile="0" resource="1" file="Source/images/speaker.png"/>
+        <FILE id="k67ftp" name="sphere.png" compile="0" resource="1" file="Source/images/sphere.png"/>
+        <FILE id="OfSxML" name="stop.png" compile="0" resource="1" file="Source/images/stop.png"/>
+      </GROUP>
+      <FILE id="W7BHPh" name="Artist.cpp" compile="1" resource="0" file="Source/Artist.cpp"/>
+      <FILE id="rhtn7Q" name="Artist.h" compile="0" resource="0" file="Source/Artist.h"/>
+      <FILE id="WpfJQT" name="Create.cpp" compile="1" resource="0" file="Source/Create.cpp"/>
+      <FILE id="dXrG5C" name="Create.h" compile="0" resource="0" file="Source/Create.h"/>
+      <FILE id="I8l3Rm" name="Load.cpp" compile="1" resource="0" file="Source/Load.cpp"/>
+      <FILE id="SvuBJy" name="Load.h" compile="0" resource="0" file="Source/Load.h"/>
+      <FILE id="fE6O1u" name="Sphere.h" compile="0" resource="0" file="Source/Sphere.h"/>
+      <FILE id="eNl7sa" name="Welcome.cpp" compile="1" resource="0" file="Source/Welcome.cpp"/>
+      <FILE id="NKOsLg" name="Welcome.h" compile="0" resource="0" file="Source/Welcome.h"/>
+      <FILE id="ojrWol" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="brq2Hg" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="QE5eE7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" smallIcon="bNfIaS" bigIcon="bNfIaS"
+            externalLibraries="libfftw3-3.lib&#10;libfftw3l-3.lib&#10;libfftw3f-3.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="C:\Program Files (x86)\Microsoft Visual Studio\fftw-3.3.5&#10;C:\Program Files (x86)\Microsoft Visual Studio\asiosdk\common&#10;&#10;"
+                       libraryPath="C:\Program Files (x86)\Microsoft Visual Studio\fftw-3.3.5&#10;"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="C:\Program Files (x86)\Microsoft Visual Studio\fftw-3.3.5&#10;C:\Program Files (x86)\Microsoft Visual Studio\asiosdk\common&#10;"
+                       libraryPath="C:\Program Files (x86)\Microsoft Visual Studio\fftw-3.3.5&#10;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+        <MODULEPATH id="juce_blocks_basics" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_blocks_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_ASIO="1"/>
+</JUCERPROJECT>
